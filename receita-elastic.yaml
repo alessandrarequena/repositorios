@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: receita-pf-index
+  description: Índice que contém a base da receita federal de PF
+spec:
+  type: elastic
+  owner: ditex-team
